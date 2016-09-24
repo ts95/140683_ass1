@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="32dp"
+    android:background="#eee">
+
+    <TextView
+        android:id="@+id/tv_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gjøvik"
+        android:textSize="30dp"
+        android:layout_toStartOf="@+id/tv_temp" />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:text="22.3°C"
+        android:textSize="30dp"
+        android:textAlignment="textEnd"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/tv_place" />
+
+    <TextView
+        android:id="@+id/tv_altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200 meters above sea level"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tv_place"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="23. October 2014, 20:34"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_altitude"/>
+</RelativeLayout>

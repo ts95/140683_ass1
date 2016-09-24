@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Placer</string>
+    <string name="title_activity_maps">Kart</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_place">Plassinformasjon</string>
+    <string name="info_activity_place">Du er i %1$s, foreløpig %2$s over havet, og den lokale temperaturen er %3$s.</string>
+    <string name="info_row_altitude">%1$s over havet</string>
+    <string name="are_you_sure">Er du sikker?</string>
+    <string name="affirm_delete_record">Vil du virkelig slette dette elementet?</string>
+    <string name="empty_list">Listen er tom</string>
+    <string name="loading_location">Laster inn beliggenhet...</string>
+    <string name="error">Feil</string>
+    <string name="location_permission_error">Appen trenger presis beliggenhetsinformasjon for å fungere.</string>
+</resources>

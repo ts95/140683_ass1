@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="meter">
+        <item quantity="one">%d meter</item>
+        <item quantity="other">%d meter</item>
+    </plurals>
+
+    <plurals name="foot">
+        <item quantity="one">%d fot</item>
+        <item quantity="other">%d fot</item>
+    </plurals>
+</resources>
